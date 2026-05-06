@@ -30,6 +30,26 @@ button {
   cursor: pointer;
 }
 
+.hidden {
+  display: none;
+}
+
+#dashboard {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.logout-btn {
+  background: #dc3545;
+}
+
+.logout-btn:hover {
+  background: #c82333;
+}
+
 body::before {
     content: " ";
     display: block;

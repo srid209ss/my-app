@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Login Page</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="login-container">
-  <h2>Login</h2>
-  <form id="loginForm">
-    <input type="text" id="username" placeholder="Username" required>
-    <input type="password" id="password" placeholder="Password" required>
-    <button type="submit">Login</button>
-  </form>
-  <p id="message"></p>
-</div>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="message"></p>
+  </div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
+  <!-- This will be used in Exercise 5 -->
+  <div id="dashboard" class="hidden">
+    <h2>Welcome to the Grid</h2>
+    <button id="logoutBtn" class="btn logout-btn">SECURE LOGOUT</button>
+  </div>
 </body>
+
 </html>
